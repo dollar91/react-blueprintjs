@@ -20,6 +20,7 @@ class Home extends React.Component<IProps, IState> {
                 <Button intent="success" className={Classes.FILL} text="增加" onClick={this.props.plusOne} />
                 <Button className={Classes.FILL} text="减少" onClick={this.props.minusOne} />
                 </p>
+                <img src={require('../resources/images/img80.png')}/>
             </div>
         );
     }
